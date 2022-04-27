@@ -1,0 +1,28 @@
+用法：注意空格 svc 是文件夹 spad 是文件 spad 与 svc 必须一一对应，数量相等
+python HS_06.py -svc [F:/output/] -spad spad.xlsx
+实例：
+python HS_06.py -svc F:\output\ -spad spad.xlsx
+
+说明：
+HS_06.py [DOC]
+                该脚本用于获取以下5种植被指数与 SPAD 之间的相关性与水平检验，结果写入到 index.txt与 INDEX.xlsx：
+		                1：归一化植被指数
+		                2: 红绿比值指数
+		                3：生理反射指数
+		                4：归一化色素叶绿素指数
+		                5：土壤调和植被指数
+
+         [注意]
+                -svc 后参数为整理到一起的所有期数SVC的文件夹
+                -spad 为spad文件所在路径
+                spad与svc必须一一对应，数量相等
+
+               针对非玉米上中下数据，需适当修改传入参数、combine（）函数
+
+
+
+HS_06_01.py [DOC]
+            该脚本用于合并：【S_derivative.xlsx,Z_derivative.xlsx,X_derivative.xlsx】
+			合并：【S_three_edge.xlsx,Z_three_edge.xlsx,X_three_edge.xlsx】
+
+python HS_06_01.py -svc [F:/output/]

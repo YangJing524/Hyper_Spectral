@@ -1,0 +1,10 @@
+用法：注意空格
+python HS_04.py  -spad [F:/output/[date]/[state]/spad.xlsx]
+
+实例：
+python HS_04.py  -spad [F:/output/[date]/[state]/spad.xlsx]
+
+说明：
+HS_04.py [DOC]
+                该脚本用于生成SPAD的箱线图
+                分别指定SPAD所在文件即可

@@ -1,0 +1,12 @@
+用法：注意空格
+python HS_05.py -svc [F:/output/]
+
+实例：
+python HS_05.py -svc F:\output\
+
+说明：
+HS_05.py [DOC]
+                该脚本用于针对玉米数据上中下分层的光谱波动范围图
+
+         [注意]
+                -svc 后参数为整理到一起的所有期数SVC的文件夹

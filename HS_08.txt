@@ -1,0 +1,5 @@
+[usage] -svc three_edge.xlsx -spad spad.xlsx -l [1, 4, 5, 11, 217]
+
+[处理]   时间：20190312
+        剔除偏离值的植被指数与三边参数
+        与 spad.xlsx 相关性

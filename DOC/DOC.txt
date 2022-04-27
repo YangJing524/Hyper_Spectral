@@ -1,0 +1,24 @@
+[Anaconda Prompt]
+开始前务必cd到当前文件夹
+
+cd 
+
+[pip install -r require.txt]
+
+该项目开始于2019年1月21日
+
+目的在于方便学习交流
+
+禁止外传
+禁止发布
+禁止用于其他商业用途
+
+基于Anaconda创建
+确保以下库已正常安装[numpy,pandas,pymongo,matplotlib,seaborn,sklearn,sqlites3,XGBoost]
+建议在anaconda下执行脚本
+
+
+修改源码请您务必与作者联系
+手机：15109212753
+邮箱：2508204932@qq.com
+Author:YJ

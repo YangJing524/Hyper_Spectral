@@ -1,0 +1,17 @@
+用法：注意空格
+python HS_02.py -f [F:/output/[date]/[state]/]
+
+实例：【含有svc】原始光谱
+python HS_02.py -f F:\output\20180605\indoor/
+
+说明：
+HS_02.py derivative.xlsx 保存了处理过程中的一阶导数
+         three_edge.xlsx 按照需求求取了以下高光谱遥感参数
+
+                         ['蓝边面积', '黄边面积', '红边面积', '蓝边位置', '黄边位置', '红边位置',
+                         '蓝边位置反射率','黄边位置反射率','红边位置反射率',
+                         'SDr/SDb','SDr/SDy',
+                         '(SDr-SDb)/(SDr+SDb)',
+                         '(SDr - SDy) / (SDr + SDy)']
+
+                         共13组参数

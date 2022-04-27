@@ -1,0 +1,9 @@
+用法：注意空格
+python HS_01.py -f [含有SVC全部文件的文件夹] -date [处理的哪一期] -state [室内indoor或室外outdoor]
+
+实例：
+python HS_01.py -f J:\2018玉米数据\玉米2018原始数据\qxym_2018\20180605\indoor_svc_resample -date 20180605 -state indoor
+
+说明：
+输入为重采样到1nm的光谱数据
+HS_01.py 用于对于.SIG文件批处理，统一输出到F:/output/[date]/[state]

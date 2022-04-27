@@ -1,0 +1,5 @@
+echarts-china-cities-pypkg
+echarts-china-counties-pypkg
+echarts-china-misc-pypkg
+echarts-united-kingdom-pypkg
+pyecharts
